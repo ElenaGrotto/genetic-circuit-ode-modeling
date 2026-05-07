@@ -1,86 +1,38 @@
-\# Genetic Circuit ODE Modeling in MATLAB
+# README — Genetic Circuit ODE Modeling in MATLAB
+# Genetic Circuit ODE Modeling in MATLAB
+MATLAB project focused on numerical modeling and solver comparison for a biological regulatory system.
 
+## Project Goal
+The objective of this project was to model protein production dynamics regulated by an activator and an inhibitor using systems of ordinary differential equations (ODEs).
 
+Different numerical solvers were compared to evaluate:
+- numerical accuracy
+- convergence behavior
+- computational efficiency
+- integration step requirements
 
-MATLAB project developed during my MSc in Biomedical Engineering focused on numerical solution and benchmarking of ordinary differential equation (ODE) systems representing protein regulation dynamics.
+## Technologies
+- MATLAB
+- Numerical ODE solvers
+- Scientific computing tools
 
+## Topics Covered
+- Dynamical systems
+- Computational modeling
+- Numerical methods
+- Solver benchmarking
+- Error analysis
 
+## Repository Contents
+- `main_simulation.m` → main simulation script
+- `protein_model_ode.m` → ODE system definition
 
-\## Overview
+## Skills Demonstrated
+- Mathematical modeling
+- Numerical analysis
+- MATLAB programming
+- Scientific data interpretation
 
-
-
-The project models the production of a protein regulated by:
-
-\- an activator
-
-\- an inhibitor
-
-
-
-using coupled ordinary differential equations.
-
-
-
-Different numerical solvers were implemented and compared in terms of:
-
-\- convergence
-
-\- numerical error
-
-\- computational efficiency
-
-\- number of integration steps
-
-
-
-\## Methods
-
-
-
-The following numerical approaches were analyzed:
-
-\- Explicit methods
-
-\- Implicit methods
-
-\- Solver benchmarking
-
-\- Error analysis
-
-
-
-\## Tools Used
-
-
-
-\- MATLAB
-
-\- ODE numerical solvers
-
-\- Computational modeling
-
-
-
-\## Skills Demonstrated
-
-
-
-\- Dynamical systems modeling
-
-\- Numerical analysis
-
-\- Scientific computing
-
-\- MATLAB programming
-
-\- Data visualization
-
-
-
-\## Author
-
-
-
+## Author
 Elena Grotto
-
+Biomedical Engineer
